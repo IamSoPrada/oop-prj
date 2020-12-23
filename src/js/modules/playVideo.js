@@ -43,5 +43,6 @@ export default class VideoPlayer {
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
         this.bindTriggers()
         this.bindCloseBtn()
+
     }
 }
